@@ -24,3 +24,8 @@ const Database = {
 };
 
 Database.findOne({ id: 2 });
+/*
+this doesnt have a reference point unless it gets invoked
+null is a value and undefined is not a value.
+find method checks each individual value against test that returns true or false.
+*/
